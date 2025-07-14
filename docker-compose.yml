@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  story_creation_app:
+    build: .
+    container_name: story_creation_app
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - MODEL_ID=${MODEL_ID}
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app

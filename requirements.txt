@@ -1,0 +1,8 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+requests
+openai
+python-dotenv
+pandas
+streamlit
+networkx
+pyvis
